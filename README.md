@@ -1,8 +1,10 @@
 # DeusApps Blender OBJ Importer Lite
 
-**DeusApps Blender OBJ Importer Lite** is a geometry-only OBJ importer for SketchUp, designed for Blender-to-SketchUp workflows.
+**DeusApps Blender OBJ Importer Lite** is a geometry-only Wavefront OBJ importer for SketchUp, optimized for Blender-to-SketchUp workflows.
 
-It imports Blender-exported Wavefront OBJ files into SketchUp as clean, editable geometry. Materials and textures are intentionally ignored to avoid broken material assignments and keep imported models predictable.
+It imports standard `.obj` files into SketchUp as clean, editable geometry. Blender is the primary tested workflow, but the importer can also be used with OBJ files exported from other 3D tools.
+
+Materials and textures are intentionally ignored to avoid broken material assignments and keep imported models predictable.
 
 ![Toolbar icons](assets/toolbar_icons_preview.png)
 
