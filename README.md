@@ -10,7 +10,8 @@ Materials and textures are intentionally ignored to avoid broken material assign
 
 ## Features
 
-- Import Blender Wavefront OBJ geometry into SketchUp
+- Import Wavefront OBJ geometry into SketchUp
+- Optimized for Blender-exported OBJ files
 - Geometry-only import
 - Materials and textures are intentionally ignored
 - Blender meters to SketchUp inches scale default
@@ -24,6 +25,12 @@ Materials and textures are intentionally ignored to avoid broken material assign
 - Collinear vertex cleanup
 - Edge softening and smoothing
 - DeusApps toolbar with command-specific icons
+
+## Scope
+
+This extension does not read `.blend` files directly and does not export `.skp` files from Blender.
+
+It works inside SketchUp and imports Wavefront `.obj` geometry. The Blender workflow is recommended because Blender can export clean OBJ files with modifiers applied.
 
 ## Screenshots
 
