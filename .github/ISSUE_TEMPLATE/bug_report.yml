@@ -1,0 +1,54 @@
+name: Bug report
+description: Report an import or cleanup problem
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: sketchup-version
+    attributes:
+      label: SketchUp version
+      placeholder: "e.g. SketchUp 2020, 2024, 2025"
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "Windows 11, macOS Sonoma, etc."
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Export OBJ from Blender with...
+        2. Import with preset...
+        3. Result...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: false
+
+  - type: textarea
+    id: files
+    attributes:
+      label: Screenshots or sample OBJ
+      description: Attach screenshots or a minimal OBJ file if possible.
+    validations:
+      required: false

@@ -1,0 +1,25 @@
+Extension Warehouse / Store Listing Draft
+
+Name:
+DeusApps Blender OBJ Importer Lite
+
+Short description:
+Import Blender OBJ files into SketchUp as clean geometry without material or texture issues.
+
+Full description:
+DeusApps Blender OBJ Importer Lite is a geometry-only OBJ importer designed for Blender-to-SketchUp workflows. It focuses on predictable static geometry import, clean face handling, Blender scale defaults, orientation presets, curve smoothing, and selected-geometry cleanup.
+
+The Lite edition intentionally ignores materials and textures to avoid broken material assignments and keep imported SketchUp models clean and editable.
+
+Features:
+- Import Blender Wavefront OBJ geometry
+- Ignore materials and textures intentionally
+- Blender meters to SketchUp inches default scale
+- Orientation presets
+- Architectural clean import mode
+- Smooth curves import mode
+- Clean selected geometry tool
+- User-provided command-specific toolbar icons
+
+Developer:
+DeusApps

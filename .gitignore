@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Build artifacts
+*.zip
+*.rbz
+!dist/*.rbz
+
+# Local/temp
+tmp/
+temp/
+*.log
